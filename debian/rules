@@ -75,7 +75,8 @@ ${BUILDDIR}/config.status: configure
 	--enable-usb-redir \
 	--enable-virtfs \
 	--enable-virtiofsd \
-	--enable-xfsctl
+	--enable-xfsctl \
+	--enable-opengl
 
 build: build-stamp
 
