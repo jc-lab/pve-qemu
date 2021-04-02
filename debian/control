@@ -40,7 +40,8 @@ Build-Depends: autotools-dev,
                libegl1-mesa-dev,
                mesa-common-dev,
                libjson-perl,
-               lintian
+               lintian,
+               libvirglrenderer-dev
 Standards-Version: 3.7.2
 
 Package: pve-qemu-kvm
@@ -67,6 +68,7 @@ Depends: ceph-common (>= 0.48),
          libepoxy0,
          libgbm1,
          libegl1-mesa,
+         libvirglrenderer0,
          ${misc:Depends},
          ${shlibs:Depends},
 Conflicts: kvm,
