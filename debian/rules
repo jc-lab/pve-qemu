@@ -76,7 +76,8 @@ ${BUILDDIR}/config.status: configure
 	--enable-virtfs \
 	--enable-virtiofsd \
 	--enable-xfsctl \
-	--enable-opengl
+	--enable-opengl \
+	--enable-virglrenderer
 
 build: build-stamp
 
